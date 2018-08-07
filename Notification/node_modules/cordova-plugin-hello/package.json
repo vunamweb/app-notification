@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/vunamweb/notification.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/vunamweb/notification.git",
+        "spec": "git+https://github.com/vunamweb/notification.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:vunamweb/notification.git",
+          "sshUrl": "git+ssh://git@github.com/vunamweb/notification.git",
+          "httpsUrl": "git+https://github.com/vunamweb/notification.git",
+          "gitUrl": "git://github.com/vunamweb/notification.git",
+          "shortcut": "github:vunamweb/notification",
+          "directUrl": "https://raw.githubusercontent.com/vunamweb/notification/master/package.json"
+        }
+      },
+      "D:\\android\\vunam\\app\\Notification"
+    ]
+  ],
+  "_from": "git+https://github.com/vunamweb/notification.git",
+  "_id": "cordova-plugin-hello@0.1.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-hello",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/vunamweb/notification.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/vunamweb/notification.git",
+    "spec": "git+https://github.com/vunamweb/notification.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:vunamweb/notification.git",
+      "sshUrl": "git+ssh://git@github.com/vunamweb/notification.git",
+      "httpsUrl": "git+https://github.com/vunamweb/notification.git",
+      "gitUrl": "git://github.com/vunamweb/notification.git",
+      "shortcut": "github:vunamweb/notification",
+      "directUrl": "https://raw.githubusercontent.com/vunamweb/notification/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/vunamweb/notification.git#4df53543c1b925228aff83673ef0910414830cf6",
+  "_shasum": "b0ee3d8edd02538b5ba204e63e0472ff09b367cc",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/vunamweb/notification.git",
+  "_where": "D:\\android\\vunam\\app\\Notification",
+  "author": {
+    "name": "Don Coleman"
+  },
+  "bugs": {
+    "url": "https://github.com/don/cordova-plugin-hello/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-hello",
+    "platforms": [
+      "android",
+      "ios",
+      "wp7"
+    ]
+  },
+  "dependencies": {},
+  "description": "A sample for a new cordova plugin",
+  "devDependencies": {},
+  "gitHead": "4df53543c1b925228aff83673ef0910414830cf6",
+  "homepage": "https://github.com/don/cordova-plugin-hello#readme",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "hello",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2",
+  "name": "cordova-plugin-hello",
+  "optionalDependencies": {},
+  "readme": "# Cordova Hello World Plugin\r\n\r\nSimple plugin that returns your string prefixed with hello.\r\n\r\nGreeting a user with \"Hello, world\" is something that could be done in JavaScript. This plugin provides a simple example demonstrating how Cordova plugins work.\r\n\r\n## Using\r\n\r\nCreate a new Cordova Project\r\n\r\n    $ cordova create hello com.example.helloapp Hello\r\n    \r\nInstall the plugin\r\n\r\n    $ cd hello\r\n    $ cordova plugin add https://github.com/don/cordova-plugin-hello.git\r\n    \r\n\r\nEdit `www/js/index.js` and add the following code inside `onDeviceReady`\r\n\r\n```js\r\n    var success = function(message) {\r\n        alert(message);\r\n    }\r\n\r\n    var failure = function() {\r\n        alert(\"Error calling Hello Plugin\");\r\n    }\r\n\r\n    hello.greet(\"World\", success, failure);\r\n```\r\n\r\nInstall iOS or Android platform\r\n\r\n    cordova platform add ios\r\n    cordova platform add android\r\n    \r\nRun the code\r\n\r\n    cordova run \r\n\r\n## More Info\r\n\r\nFor more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)\r\n\r\nFor more info on plugins see the [Plugin Development Guide](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/don/cordova-plugin-hello.git"
+  },
+  "version": "0.1.0"
+}
